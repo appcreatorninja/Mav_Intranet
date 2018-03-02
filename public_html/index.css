@@ -1,0 +1,12 @@
+div{
+    border-color: lightskyblue;
+    border-width: 5px;
+    border-style: double;
+}
+.hi{
+  color:lime ;
+  font-family: cursive;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
