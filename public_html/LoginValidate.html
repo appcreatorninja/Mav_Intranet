@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Javascript Login Form Validation</title>
+        <link rel="stylesheet" type="text/css" href="Login.css">
+        <script src="login.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="main">
+                <h2>Login</h2>
+                <form id="form_id" method="POST" name="myform">
+                    <label class="usernamelabel">User Name :</label>
+                    <input type="text" name="username" id="username" class="username">
+                    <br>
+                    <br>
+                    <label class="passwordlabel">Password :</label>
+                    <input type="password" name="password" id="password" class="password">
+                    <br>
+                    <br>
+                    <div class="submit">
+                    <input type="button" value="Login" id="submit" onclick="validate()" class="submit"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
