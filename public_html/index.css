@@ -1,11 +1,11 @@
 div{
-    border-color: lightskyblue;
+    border-color: dodgerblue;
     border-width: 5px;
     border-style: double;
 }
 .hi{
-  color:lime ;
-  font-family: 'Karma', serif;
+  color:darkorange;
+  font-family: 'Open Sans', sans-serif;
 }
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
