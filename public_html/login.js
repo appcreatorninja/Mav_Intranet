@@ -34,6 +34,13 @@ function validate()
                     return false;
                 }
                 else{
+                    if( username == "zk" && password == "M4V123")
+                    {
+                                          alert("Login Successful!");
+                    window.location = "index.html";
+                    return false; 
+                    }
+                    else{
                 attempt --;
                 alert("You have " + attempt + " attempt/s left.")
                     if( attempt == 0)
